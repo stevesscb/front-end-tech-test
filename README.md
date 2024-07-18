@@ -29,7 +29,7 @@ For this tech test, we would like you to build a web page containing the specifi
 
 ## What Comes Next: 
 
-If we like what we see, we will bring you back in to go over your code.
+If we like what we see, we will bring you back in to go over your code. Be prepared to share your screen as you walk us through your code and make minor adjustments on the fly.
 
 We'd love to get your thoughts:
 
