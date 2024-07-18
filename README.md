@@ -25,7 +25,7 @@ For this tech test, we would like you to build a web page containing the specifi
 - We will be checking to see how the site responds in-between breakpoints, so while you should focus on hitting the mocks as designed, it should also look good at other viewport sizes.
 - While we will be checking how close you can match the design, *we also expect the navigation dropdowns to work on all breakpoints.* 
 - Code should be written as if you would need to maintain it for years to come.
-- **Turnaround Time:** It is understood that you want to put your best foot forward, but we also understand that you have other responsibilities.  Our intention with this tech test is that you should be able to deliver a site you are happy with by spending no more than a couple of hours per night over a couple of nights. 
+- **Turnaround Time:** It is understood that you want to put your best foot forward, but we also understand that you have other responsibilities.  Our intention with this tech test is that you should be able to deliver a site you are happy with by spending no more than a few hours and that you would send it back for our review in a few days. 
 
 ## What Comes Next: 
 
