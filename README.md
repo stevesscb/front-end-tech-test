@@ -15,7 +15,7 @@ For this tech test, we would like you to build a web page containing the specifi
 
 ## What You Need To Get Started:
 
-- **Figma File:** [https://www.figma.com/file/nsA0rvuI8PxoIgsikJcj57/Candidate-mock](https://www.figma.com/file/nsA0rvuI8PxoIgsikJcj57/Candidate-mock). 
+- **Figma File:** [https://www.figma.com/design/onyPZC9gaTA3cGGG4T80xj/Candidate-Mocks?node-id=0-1&t=WqBzRef5fSVBtkhW-1). 
 - **Fonts:** Montserrat - [https://fonts.google.com/share?selection.family=Montserrat:wght@400;700;900](https://fonts.google.com/share?selection.family=Montserrat:wght@400;700;900) - feel free to add any that were missed.
 - **Icons:** [FontAwesome](https://fontawesome.com/) - they might not be exact to the mockup and that is ok.
 - **Images:** see assets directory - or use your own - as long as they are sized the same as the mocks.
