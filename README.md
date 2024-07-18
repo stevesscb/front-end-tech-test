@@ -7,7 +7,7 @@ One of the main responsibilities of the Front-End Developer on the pipeline team
 At this point, you've most likely made it through an interview or two, and now we want to see your talent at work.
 
 ## What We Are Looking For:
-For this tech test, we would like you to build a web page containing the specified sections from the Figma design file below (most likely just the header and another horizontal section). This project will be used to gauge your knowledge of HTML, CSS, JS, responsive design conventions, as well as how well you can take a design in figma and match it in browser.  
+For this tech test, we would like you to build a web page containing the specified sections from the Figma design file below. This project will be used to gauge your knowledge of HTML, CSS, JS, responsive design conventions, as well as how well you can take a design in figma and match it in browser.  
 
 - **HTML:** semantic HTML
 - **CSS:** feel free to use your favorite pre-processor and boilerplate css (ie. normalize, modernizr, etc.), but please no CSS frameworks (bootstrap, foundation, etc.).
