@@ -36,3 +36,4 @@ We'd love to get your thoughts:
 - Are there any sections in the mockup that you feel require additional clarification from the designer?
 - Which of your skills that you expect to use in this role do you feel *weren't* highlighted in this project?
 - What's important for remote engineering teams to work well?
+# front-end-assessment
