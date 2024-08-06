@@ -1,0 +1,15 @@
+footer {
+  text-align: center;
+  line-height: 2.4rem;
+  padding: var(--gap-medium);
+  background: var(--color-primary);
+  font-size: var(--font-regular);
+  color: var(--color-white);
+}
+
+.footer-title {
+  line-height: 2.3rem;
+  margin-bottom: 1.6rem;
+  font-weight: var(--font-extra-bold);
+  font-size: var(--font-large);
+}

@@ -1,0 +1,22 @@
+.hero {
+  text-align: center;
+  padding: var(--gap-medium);
+  background: var(--color-secondary);
+  color: var(--color-primary);
+
+  .hero-heading {
+    font-size: 3rem;
+    line-height: 3.8rem;
+
+    .hero-strong {
+      font-weight: var(--font-extra-bold);
+    }
+  }
+
+  .hero-subheading {
+    line-height: 2.4rem;
+    padding-top: var(--gap-medium);
+    font-size: var(--font-regular);
+    font-weight: var(--font-bold);
+  }
+}

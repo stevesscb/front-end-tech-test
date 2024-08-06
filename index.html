@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/css/fontawesome.css" rel="stylesheet" />
+    <link href="./assets/css/solid.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    <title>Front-end-tech-test</title>
+  </head>
+  <body>
+    <dialog id="media-modal" role="dialog" aria-modal="true">
+      <div class="modal-container">
+        <iframe id='iframe' class='video' src="https://www.youtube.com/embed/BHACKCNDMW8?si=VDoGnCXW28OwQFOR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="modal-content">
+        <p class="content-title">Adipisicing unde vel so dolore, consequatur.</p>
+        <time datetime="2024-05-12">May 12 12:30 PM</time>
+      </div>
+      <form method="dialog" class="dialog-cta">
+        <button id="close-media">
+          <img src="./assets/Frame 76.png" alt="Cross image to close window">
+        </button>
+      </form>
+    </dialog>
+    <div class="wrapper">
+      <header id="header">
+        <!-- Small screen logo -->
+        <img src="https://placehold.co/72x72" alt="Company logo" class="logo-mobile" />
+        <!-- Large screen logo  -->
+        <img
+          src="https://placehold.co/160x72"
+          alt="Company logo"
+          class="logo-desktop"
+        />
+        
+        <!-- Small screen navigation button -->
+        <button id='mobile-menu-button' class="mobile-menu-button hidden-desktop" aria-expanded="true" aria-controls="main-nav">
+          <i id='mobile-icon' class="nav-icon fa-solid fa-bars"></i>
+        </button>
+
+        <!-- Navigation links  -->
+        <nav id="main-nav" class="hidden-mobile main-nav">
+          <ul>
+            <li>
+              <button id='b-1' data-nav-item="nav_cat1" class='top-level' aria-expanded="false" aria-controls="products-level-2" aria-current="true" title="Contains current page link">
+                Ipsum
+                <i class="fa-solid fa-caret-down hidden-desktop" aria-hidden="true"></i>
+              </button>
+              <ul class='products-level-2 hidden-desktop' id="nav_cat1">
+                <li class="category">
+                    Ipsum Lorem
+                  <ul class="sub-list">
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                </ul>
+                </li>
+                <li class="category">
+                 Ipsum Lorem
+                  <ul class="sub-list">
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                  </ul>
+                </li>
+              </ul> 
+            </li>
+            <li>
+              <button id='b-2' data-nav-item="nav_cat2" class='top-level' aria-expanded="false" aria-controls="products-level-2">
+                Ipsum
+                <i class="fa-solid fa-caret-down hidden-desktop" aria-hidden="true"></i>
+              </button>
+              <ul class='products-level-2 hidden-desktop' id="nav_cat2">
+                <li class="category">
+                  Ipsum Lorem
+                  <ul class="sub-list">
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                </ul>
+                </li>
+                <li class="category">
+                 Ipsum Lorem
+                  <ul class="sub-list">
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                  </ul>
+                </li>
+              </ul> 
+            </li>
+            <li>
+              <button id='b-3' data-nav-item="nav_cat3" class='top-level' aria-expanded="false" aria-controls="products-level-2">
+                Ipsum
+                <i class="fa-solid fa-caret-down hidden-desktop" aria-hidden="true"></i>
+              </button>
+              <ul class='products-level-2 hidden-desktop' id="nav_cat3">
+                <li class="category">
+                  Ipsum Lorem
+                  <ul class="sub-list">
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                </ul>
+                </li>
+                <li class="category">
+                 Ipsum Lorem
+                  <ul class="sub-list">
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                  </ul>
+                </li>
+              </ul> 
+            </li>
+            <li>
+              <button id='b-4' data-nav-item="nav_cat4" class='top-level' aria-expanded="false" aria-controls="products-level-2">
+                Ipsum
+                <i class="fa-solid fa-caret-down hidden-desktop" aria-hidden="true"></i>
+              </button>
+              <ul class='products-level-2 hidden-desktop' id="nav_cat4">
+                <li class="category">
+                  Ipsum Lorem
+                  <ul class="sub-list">
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                    <li class="sub-item">link</li>
+                </ul>
+                </li>
+                <li class="category">
+                 Ipsum Lorem
+                  <ul class="sub-list">
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                      <li class="sub-item">link</li>
+                  </ul>
+                </li>
+              </ul> 
+            </li>
+            <li>
+              <button class='top-level' aria-expanded="true" aria-controls="products-level-2">
+                ipsum
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main id="main-content" class="main-container">
+        <section class="hero">
+          <heading class="hero-heading"
+            >Proident anim <strong class="hero-strong">nor nulla iste.</strong>
+          </heading>
+          <div class="hero-subheading">
+            Minim modi yet omnis nor quia so minima.
+          </div>
+        </section>
+        <section class="articles">
+          <span class="articles-heading">
+            <h1>Officia ut</h1>
+            <a class="title-link" href="#">Ipsum Lorem</a>
+          </span>
+          <div class="grid">
+
+            <article class="card">
+              <div class="card-image-container">
+                <img
+                  src="./assets/mountain-1.png"
+                  alt="Sunrise lights the sky behind snowy mountains. A dark beach with small waves rolling into shore in the foreground."
+                  class="card-image"
+                />
+              </div>
+              <div class="card-content">
+                <p class="card-title">
+                  Adipisicing unde vel so dolore, consequatur.
+                </p>
+                <button class="card-cta">
+                  <i class="fa-solid fa-link fa-xl"></i>
+                 <span>Ipsum Lorem</span>
+                </button>
+              </div>
+            </article>
+
+            <!-- Media card-->
+            <article class="card">
+              <div class="card-media-container">
+                <button id="expand-media-btn1"></button>
+                  <iframe class="media" src="https://www.youtube.com/embed/BHACKCNDMW8?si=VDoGnCXW28OwQFOR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="card-content">
+                <p class="card-title">
+                  Adipisicing unde vel so dolore, consequatur.
+                </p>
+                <button id="expand-media-btn2" class="card-cta">
+                  <i class="fa-solid fa-link fa-xl"></i>
+                 <span>Ipsum Lorem</span>
+                </button>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-image-container">
+                <img
+                  src="./assets/mountain-1.png"
+                  alt="Sunrise lights the sky behind snowy mountains. A dark beach with small waves rolling into shore in the foreground."
+                  class="card-image"
+                />
+              </div>
+              <div class="card-content">
+                <p class="card-title">
+                  Adipisicing unde vel so dolore, consequatur.
+                </p>
+                <button class="card-cta">
+                  <i class="fa-solid fa-link fa-xl"></i>
+                 <span>Ipsum Lorem</span>
+                </button>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-image-container">
+                <img
+                  src="./assets/mountain-1.png"
+                  alt="Sunrise lights the sky behind snowy mountains. A dark beach with small waves rolling into shore in the foreground."
+                  class="card-image"
+                />
+              </div>
+              <div class="card-content">
+                <p class="card-title">
+                  Adipisicing unde vel so dolore, consequatur.
+                </p>
+                <button class="card-cta">
+                  <i class="fa-solid fa-link fa-xl"></i>
+                 <span>Ipsum Lorem</span>
+                </button>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-image-container">
+                <img
+                  src="./assets/mountain-1.png"
+                  alt="Sunrise lights the sky behind snowy mountains. A dark beach with small waves rolling into shore in the foreground."
+                  class="card-image"
+                />
+              </div>
+              <div class="card-content">
+                <p class="card-title">
+                  Adipisicing unde vel so dolore, consequatur.
+                </p>
+                <button class="card-cta">
+                  <i class="fa-solid fa-link fa-xl"></i>
+                 <span>Ipsum Lorem</span>
+                </button>
+            </article>
+
+            <article class="card">
+              <div class="card-image-container">
+                <img
+                  src="./assets/mountain-1.png"
+                  alt="Sunrise lights the sky behind snowy mountains. A dark beach with small waves rolling into shore in the foreground."
+                  class="card-image"
+                />
+              </div>
+              <div class="card-content">
+                <p class="card-title">
+                  Adipisicing unde vel so dolore, consequatur.
+                </p>
+                <button class="card-cta">
+                  <i class="fa-solid fa-link fa-xl"></i>
+                 <span>Ipsum Lorem</span>
+                </button>
+              </div>
+            </article>
+
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <p class="footer-title">Minima ad for vitae sit</p>
+      <p>Numquam. Esse aliquip do, magni.</p>
+      <p>Aut proident and voluptate sunt quisquam so voluptate nemo</p>
+    </footer>
+    <script src="/js/site.js"></script>
+  </body>
+</html>

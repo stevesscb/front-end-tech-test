@@ -1,0 +1,125 @@
+.articles {
+  padding: 0 var(--gap-medium) var(--gap-medium);
+  margin-bottom: var(--gap-medium);
+  background: var(--color-white);
+
+  .articles-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--gap-medium) 0rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    line-height: 3rem;
+    font-weight: var(--font-extra-bold);
+  }
+
+  .title-link {
+    line-height: 2.4rem;
+    font-size: var(--font-regular);
+  }
+
+  .title-link:hover,
+  .title-link:active {
+    background: var(--color-primary);
+    color: var(--color-secondary);
+  }
+
+  .grid {
+    display: grid;
+    gap: var(--gap-medium);
+  }
+
+  .card {
+    text-align: center;
+    padding: var(--gap-medium);
+    background: var(--color-secondary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    .card-image-container {
+      .card-image {
+        aspect-ratio: 16 / 9;
+        display: block;
+        height: auto;
+        max-width: 100%;
+      }
+    }
+
+    .card-media-container {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      padding-top: 56.25%;
+
+      button {
+        z-index: 10;
+        border: none;
+        position: absolute;
+        background: transparent;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .media {
+        position: absolute;
+        z-index: 9;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .card-content {
+      padding: var(--gap-medium);
+      padding-bottom: 0;
+
+      .card-title {
+        line-height: 2.4rem;
+        margin-bottom: var(--gap-medium);
+        font-size: var(--font-regular);
+      }
+
+      .card-cta {
+        margin: 0 auto;
+        width: fit-content;
+        transition: all 0.3s ease;
+        padding: 1.6rem var(--gap-medium);
+        border: 1px solid var(--color-black);
+
+        display: flex;
+        align-items: center;
+
+        span {
+          line-height: 2.5rem;
+          text-decoration: none;
+          margin-left: 1rem;
+          font-weight: var(--font-bold);
+          font-size: var(--font-large);
+        }
+      }
+    }
+  }
+
+  .card:hover {
+    background: var(--color-secondary-hover);
+
+    .card-cta {
+      color: var(--color-white);
+      background: var(--color-primary);
+
+      a {
+        color: var(--color-white);
+      }
+    }
+  }
+}
